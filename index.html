@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- 파비콘 -->
+  <link rel="icon" href="./favicon.png">
+  <!-- material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- 폰트 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/mideaqury.css">
+
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- gsap -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"
+    integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- ScrollMagic -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
+    integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script defer src="./js/main.js"></script>
+  <title>EggDrop</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="inner">
+      <h1 class="logo">
+        <a href="javascript:void(0)">eggdrop</a>
+      </h1>
+      <nav>
+        <ul class="gnb">
+          <li><a href="javascript:void(0)" class="underline">MENU</a>
+
+          </li>
+          <li><a href="javascript:void(0)" class="underline">STORE</a>
+          </li>
+          <li><a href="javascript:void(0)" class="underline">ABOUT</a>
+
+          </li>
+          <li><a href="javascript:void(0)" class="underline">CONTACT</a>
+
+          </li>
+          <li><a href=" javascript:void(0)">FRANCHISE</a>
+          </li>
+        </ul>
+        <div class="lnb">
+
+          <ul class="lnb__list">
+            <li><a href="javascript:void(0)">NEW</a></li>
+            <li><a href="javascript:void(0)">EGGDROP'S CHOICE</a></li>
+            <li><a href="javascript:void(0)">MERINGUE BURGER</a></li>
+            <li><a href="javascript:void(0)">SANDWICH</a></li>
+            <li><a href="javascript:void(0)">SIDE</a></li>
+            <li><a href="javascript:void(0)">COFFEE</a></li>
+            <li><a href="javascript:void(0)">DRINK</a></li>
+          </ul>
+          <ul class="lnb__list">
+            <li><a href="">BRAND</a></li>
+            <li><a href="">NOTICE</a></li>
+          </ul>
+          <ul class="lnb__list">
+            <li><a href="">FAQ</a></li>
+            <li><a href="">고객문의</a></li>
+          </ul>
+        </div>
+
+      </nav>
+
+
+    </div>
+  </header>
+
+
+  <!-- MAIN -->
+  <main>
+    <!-- SLIDE BANNER -->
+    <section class="slide-banner">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <figure>
+                <img src="./img/banner/eggmakesbetter.jpg" alt="">
+              </figure>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <figure>
+                <img src="./img/banner/garlickbaconcheese.jpg" alt=""></img>
+              </figure>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="javascript:void(0)">
+              <figure>
+                <img src="./img/banner/eggs.jpg" alt=""></img>
+              </figure>
+            </a>
+          </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="slideOn">
+        <a href="javascript:void(0)">SCROLL ON</a>
+        <div class="material-icons">expand_more</div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu scroll-spy">
+
+      <h2 class="back-to-position to-up delay-0">MENU</h2>
+      <ul class="menu__pageNav back-to-position to-up delay-1">
+        <li><a href="javascript:void(0)" class="underline">EGG DROP'S CHOICE</a></li>
+        <li><a href="javascript:void(0)" class="underline">MEMINGUE BURGER</a></li>
+        <li><a href="javascript:void(0)" class="underline">SANDWICH</a></li>
+        <li><a href="javascript:void(0)" class="underline">DRINK</a></li>
+      </ul>
+      <div class="menu__list">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <figure class="list">
+                  <span class="list__title"><img src="./img/menu/set/1622881219.png" alt=""></span>
+                  <span class="list__img"><img src="./img/menu/set/garlicbacon.png" alt=""></span>
+                  <figcaption>갈릭 베이컨 치즈+수제 라떼</figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <figure class="list">
+                  <span class="list__title"><img src="./img/menu/set/1622881219.png" alt=""></span>
+                  <span class="list__img"><img src="./img/menu/set/garlicbacon.png" alt=""></span>
+                  <figcaption></figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <figure class="list">
+                  <span class="list__title"><img src="./img/menu/set/1622881219.png" alt=""></span>
+                  <span class="list__img"><img src="./img/menu/set/garlicbacon.png" alt=""></span>
+                  <figcaption></figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <figure class="list">
+                  <span class="list__title"><img src="./img/menu/set/1622881219.png" alt=""></span>
+                  <span class="list__img"><img src="./img/menu/set/garlicbacon.png" alt=""></span>
+                  <figcaption></figcaption>
+                </figure>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="javascript:void(0)">
+                <figure class="list">
+                  <span class="list__title"><img src="./img/menu/set/1622881219.png" alt=""></span>
+                  <span class="list__img"><img src="./img/menu/set/garlicbacon.png" alt=""></span>
+                  <figcaption></figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+
+    <!-- NEW EGGDROP -->
+    <section class="newEggDrop scroll-spy">
+      <h2 class="back-to-position to-up delay-0">NEW EGGDROP</h2>
+      <div class="container">
+        <div class="con__left back-to-position to-up delay-1">
+          <img src="./img/new/p_new_1.png" alt="CREAM CHEESE MERINGUE BUGGER" class="title" />
+          <p><strong>크림치즈 머랭버거</strong></p>
+          <p>달걀 흰자와 크림치즈가 만나 폭신폭신한 식감의 부드러운 에그 패티의 머랭 버거를 만나보세요</p>
+          <div class="btn__wrap">
+            <a href="javascript:void(0)" class="btn">자세히 보기<div class="material-icons"> arrow_forward</div></a>
+          </div>
+        </div>
+        <div class="con__right back-to-position to-up delay-2">
+          <img src="./img/new/img_new_1.png" alt="크림치즈 머랭버거" />
+        </div>
+      </div>
+      <img src="./img/new/img_main_new_1.png" alt="" class="rolling back-to-position to-left delay-2"></div>
+    </section>
+
+
+    <!-- STORE -->
+    <section class="store scroll-spy">
+      <h2 class="back-to-position to-up delay-0">STORE</h2>
+      <p>가장 가까운 EGGDROP 매장을 검색해보세요!</p>
+
+      <div class="container">
+        <div class="store__search">
+          <div class="store__name">
+            <img src="./img/store/icon_store.png" alt="" />
+            <span class="store--name">강남지점</span>
+          </div>
+          <div class="btn__wrap">
+            <a href="javascript:void(0)" class="btn">자세히 보기<div class="material-icons"> arrow_forward</div></a>
+          </div>
+        </div>
+
+        <p class="store--target">현재 위치 재설정</p>
+        <ul class=store__etc>
+          <li class="store--branch  back-to-position to-up delay-1">
+            <p><strong>강남본점</strong></p>
+            <p>서울특별시 서초구 서초동 1321-9풍림아이원매직 제1층 102호
+              번호 02-598-8833
+              07:00-22:00</p>
+          </li>
+          <li class="app back-to-position to-up delay-2">
+            <p>APP으로 간편하게 주문해보세요</p>
+            <ul class="app__list">
+              <li><a href="javascript:void(0)"><img src="./img/delivery/btn_baemin_2.png" alt="배달의민족"></a></li>
+              <li><a href="javascript:void(0)"><img src="./img/delivery/btn_yogiyo_2.png" alt="요기요"></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EGG MAKES BETTER -->
+    <section class="eggMakesBetter scroll-spy">
+      <img src="./img/makebetter/h_eat.png" alt="EGG MAKES BETTER" class="title back-to-position to-up delay-0">
+      <div class="eggMakesBetter__wrap">
+        <figure class="back-to-position to-right delay-1">
+          <img src="./img/makebetter/img_better.jpg"" alt=""/>
+      </figure>
+      <div class=" eggMakesBetter__content back-to-position to-left delay-2">
+          <p><strong>일상의 수준을 높이다.</strong></p>
+          <p>현대인에게 필요한 비타민, 철분, 아미노산 등의 풍부한 영양소가 함유된 프리미엄 무항생제 계란만 엄격하게
+            사용한 맛있는 스크럼블 에그로 건강한 한끼를 요리합니다.
+          </p>
+          <p>우리에게 익숙한 샌드위치에서 신선한 재료와 감각적인 모양으로 한 단계 업그레이드 된 계란 샌드위치라는 카테고리를 새롭게 창조하였습니다.</p>
+          <div class="btn__wrap">
+            <a href="javascript:void(0)" class="btn">브랜드 스토리<div class="material-icons">arrow_forward</div></a>
+          </div>
+      </div>
+      </div>
+    </section>
+
+
+    <!-- NOTICE -->
+    <section class="notice scroll-spy">
+      <div class="inner back-to-position to-left delay-0">
+        <div class="notice__title ">
+          <h3 class="back-to-position to-up delay-1">NOTICE</h3>
+          <p>EGGDROP의 새로운 소식을 확인해보세요</p>
+          <a href="javascript:void(0)" class="btn">자세히 보기<div class="material-icons">arrow_forward</div></a>
+        </div>
+
+        <ul class="notice__list">
+          <li><span class="date">2021-05-14</span><a href="javascript:void(0)">[안내] 홈페이지 그랜드 오픈 안내</a></li>
+          <li><span class="date">2021-05-03</span><a href="javascript:void(0)">에그드랍, 신제품 특허 출원… 독자 레시피와 가맹점 보호 나선다</a>
+          </li>
+          <li><span class="date">2021-05-01</span><a href="javascript:void(0)">[안내] '명란아보번' 미판매 사전 안내</a></li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- FOLLOW US -->
+    <section class="follow-us scroll-spy">
+      <h2 class=" back-to-position to-up delay-0">FOLLOW US</h2>
+      <p class="back-to-position to-up delay-1"><strong>@EGGDROP.OFFICIAL</strong></pclass>
+        <div class="container back-to-position to-up delay-2">
+          <ul class="item">
+            <li class="item__list"><a href="javascript:void(0)"><img src="./img/followus/1636077107.png" alt=""></a>
+            </li>
+            <li class="item__list"><a href="javascript:void(0)"><img src="./img/followus/1636077165.png" alt=""></a>
+            </li>
+            <li class="item__list"><a href="javascript:void(0)"><img src="./img/followus/1636077210.png" alt=""></a>
+            </li>
+            <li class="item__list"><a href="javascript:void(0)"><img src="./img/followus/1636077255.png" alt=""></a>
+            </li>
+            <li class="item__list"><a href="javascript:void(0)"><img src="./img/followus/1636077297.png" alt=""></a>
+            </li>
+            <li class="item__list"><a href="javascript:void(0)"><img src="./img/followus/1636077331.png" alt=""></a>
+            </li>
+            <li class="item__list"><a href="javascript:void(0)"><img src="./img/followus/1636077379.png" alt=""></a>
+            </li>
+            <li class="item__list"><a href="javascript:void(0)"><img src="./img/followus/1636077427.png  " alt=""></a>
+            </li>
+            <li class="item__list"><a href="javascript:void(0)"><img src="./img/followus/1636077460.png" alt=""></a>
+            </li>
+            <li class="item__list"><a href="javascript:void(0)"><img src="./img/followus/1636077578.png" alt=""></a>
+            </li>
+          </ul>
+        </div>
+    </section>
+    <!-- FIX-BTNS -->
+    <div class="fix-btns">
+      <a href="javascript:void(0)" class="btn--delevery rolling">delivery</a>
+      <a href="javascript:void(0)" class="btn--top">
+        <div class="material-icons">
+          expand_less
+        </div>Top
+      </a>
+    </div>
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="inner">
+      <div class="footer__top">
+        <div class="footer__logo"><a href="javascript:void(0)">EGGDROP</a></div>
+        <ul class="sns">
+          <li><a href="javscript:void(0)">instargram</a></li>
+          <li><a href="javscript:void(0)">facebook</a></li>
+        </ul>
+
+      </div>
+      <div class="footer__bottom">
+        <ul class="nav">
+          <li><a href="javscript:void(0)">MENU</a></li>
+          <li><a href="javscript:void(0)">STORE</a></li>
+          <li><a href="javscript:void(0)">ABOUT</a></li>
+          <li><a href="javscript:void(0)">CONTACT</a></li>
+          <li><a href="javscript:void(0)">FRANCHISE</a></li>
+        </ul>
+        <div class="info">
+          <ul class="btn--group">
+            <li><a href="">고객문의</a></li>
+            <li><a href="">개설문의</a></li>
+            <li><a href="">개인정보취급방침</a></li>
+          </ul>
+          <div class="copyright">
+            <div class="address">
+              <p>주식회사 골든하인드 서울특별시 서초구 강남대로 311 (드림플러스 강남)</p>
+              <p>1670-4809</p>
+              <p>support@goldenhind.co.kr</p>
+            </div>
+            <P>Copyright© 주식회사 골든하인드. All Rights Reserved.</P>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
